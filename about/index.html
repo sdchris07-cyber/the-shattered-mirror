@@ -10,6 +10,8 @@
   <meta property="og:image" content="/hero-banner.png" />
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- Plausible Analytics -->
+  <script defer data-domain="shattered-mirror.blog" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -90,7 +92,7 @@
       <div class="container text-center">
         <h2>📬 Join Our Sanctuary</h2>
         <p class="text-lg muted" style="max-width:500px;margin:0 auto var(--space-md);">Get weekly validation, coping scripts, and gentle exercises delivered to your inbox.</p>
-        <form class="newsletter-form" action="#" method="post">
+        <form class="newsletter-form" action="https://buttondown.com/api/emails/embed-subscribe/shatteredmirror" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/shatteredmirror','popupwindow')">
           <input type="email" name="email" placeholder="your-email@example.com" required aria-label="Email" />
           <button type="submit" class="btn btn-primary">Subscribe Free</button>
         </form>
